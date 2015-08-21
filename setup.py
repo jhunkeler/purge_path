@@ -6,7 +6,7 @@ entry_points = {}
 package_data = {}
 
 entry_points['console_scripts'] = [
-    'purge_path = purge_path:main',
+    'purge_path = purge_path.purge_path:main',
 ]
 
 package_data[''] = ['*.txt', '*.md']
@@ -28,7 +28,6 @@ setup(
     name=NAME,
     version=VERSION,
     description='A small PATH manipulator',
-    requires=[''],
     provides=[NAME],
     author='Joseph Hunkeler',
     author_email='jhunk@stsci.edu',
