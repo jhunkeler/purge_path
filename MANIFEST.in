@@ -1,2 +1,4 @@
 include RELIC-INFO
-include RELEASE-VERSION
+recursive-include relic *.* *.py
+prune relic/relic/__pycache__
+prune relic/.git
